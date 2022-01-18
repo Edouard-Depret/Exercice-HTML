@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Enregistrement</h1>
+    <form>
+      <div>
+        <label for="nom">Nom : </label>
+        <input type="text" id="nom" placeholder="Ex : Dupont" />
+      </div>
+      <div>
+        <label for="prenom">Prenom : </label>
+        <input type="text" id="prenom" placeholder="Ex : André" />
+      </div>
+      <div>
+        <label for="lieu_de_naissance">Lieu de naissance : </label>
+        <input type="text" id="lieu_de_naissance" placeholder="Ex : Paris" />
+      </div>
+      <div>
+        <label for="pays">Pays de naissance : </label>
+        <select id="pays">
+          <option>-- Veuillez choisir votre pays de naissance--</option>
+          <option>France</option>
+          <option>Belgique</option>
+          <option>Angleterre</option>
+          <option>Allemagne</option>
+          <option>Espagne</option>
+        </select>
+      </div>
+      <div>
+        <label for="date_de_naissance">Date de naissance : </label>
+        <input
+          type="date"
+          id="date_de_naissance"
+          placeholder="Ex : 01/01/1990"
+        />
+      </div>
+      <div>
+        <label for="genre">Civilité : </label> <br />
+        <input type="radio" name="genre" /> Homme <br />
+        <input type="radio" name="genre" /> Femme <br />
+      </div>
+      <div>
+        <label for="bac">Pourcentage ou moyenne obtenue au BAC : </label>
+        <input type="text" id="bac" placeholder="Ex : 68%" />
+      </div>
+      <div>
+        <p>Quelle formation vous intéresse?</p>
+        <input type="checkbox" id="webfull">
+        <label for="webfull">Développeur Web Full Stack</label>
+        </div>
+        <div>
+        <input type="checkbox" id="webfront">
+        <label for="webfront">Développeur Web Front End</label>
+        </div>
+        <div>
+        <input type="checkbox" id="devsales">
+        <label for="devsales">Développeur Salesforce</label>
+        </div>
+        <div>
+        <input type="checkbox" id="devpython">
+        <label for="devpython">Développeur d'application Python</label>
+        </div>
+        <div>
+        <input type="checkbox" id="webfull">
+        <label for="webfull">Développeur Web Full Stack</label>
+      <div>
+        <label for="email">Email : </label>
+        <input type="email" id="email" placeholder="Ex : abc@abc.fr" />
+      </div>
+      <div>
+        <label for="telephone">Téléphone : </label>
+        <input type="number" id="telephone" placeholder="Ex : 07777777777" />
+      </div>
+      <div>
+        <label for="motivation">Lettre de motivation : </label>
+        <textarea
+          id="motivation"
+          placeholder="Pourquoi voulez-vous rejoindre cette formation?"
+          cols="50"
+          rows="5"
+        ></textarea>
+      </div>
+      <input type="submit" value="Envoyer" />
+    </form>
+  </body>
+</html>
